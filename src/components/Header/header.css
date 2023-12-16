@@ -1,29 +1,54 @@
 .navbar {
-    width: 100%;
-    height: 50px;
-    background-color: #1d1c1c;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 40px;
-  }
-  
-  .navbar .logo {
-    color: white;
-  }
-  
-  .navbar .profile {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar .profile img {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .navbar .profile .user-infos {
-    color: white;
-  }
+  width: 100%;
+  height: 50px;
+  background-color: #1d1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.navbar .logo span {
+  color: white;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.navbar .right-side {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .right-side .profile {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.navbar .right-side .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.navbar .right-side .profile .user-infos {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar .right-side .logout {
+  padding: 15px;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .right-side .logout:hover {
+  background-color: #eb2c2c;
+  border-radius: 50%;
+}
