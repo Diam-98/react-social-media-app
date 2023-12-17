@@ -4,6 +4,7 @@ import './explore.css';
 import { Select } from 'antd';
 import { CaretUpOutlined, CaretDownOutlined } from '@ant-design/icons';
 import PostCard from '../../components/Card/PostCard';
+import SearchBox from '../../components/Search/SearchBox';
 
 const { Option } = Select;
 
@@ -16,10 +17,7 @@ const Explore = () => {
   return (
     <div className='explore'>
       <h2>Explorer des articles</h2>
-      <div className='search-box'>
-        <SearchOutlined />
-        <input type='text' placeholder='Rechercher un post' />
-      </div>
+      <SearchBox />
       <div className='title-filtre'>
         <h3>Populaires</h3>
         <Select defaultValue='all' onChange={handleChange}>

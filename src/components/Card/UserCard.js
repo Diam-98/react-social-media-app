@@ -1,4 +1,5 @@
 import React from 'react';
+import './userCard.css';
 import user from '../../images/robot-avatar.png';
 import { Button } from 'antd';
 import { Link } from 'react-router-dom';

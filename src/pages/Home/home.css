@@ -90,33 +90,6 @@
   flex-wrap: wrap;
 }
 
-.home .network-body .network-user {
-  width: 50%;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  color: #fff;
-  margin: 10px 0;
-}
-
-.home .network-body .network-user img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-
-.home .network-body .network-user .connect-button {
-  background: transparent;
-  border: 2px solid #1d1c1c;
-  color: #fff;
-}
-
-.home .network-body .network-user .connect-button:hover {
-  background-color: #1d1c1c;
-}
-
 /* Media queries */
 @media screen and (max-width: 880px) {
   .home {
