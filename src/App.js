@@ -3,6 +3,7 @@ import UserCard from './components/Card/UserCard';
 import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
 import Explore from './pages/Explore/Explore';
+import Favorit from './pages/Favorits/Favorit';
 import Home from './pages/Home/Home';
 import Network from './pages/Network/Network';
 
@@ -15,7 +16,8 @@ function App() {
         <div className='container'>
           {/* <Home /> */}
           {/* <Explore /> */}
-          <Network />
+          {/* <Network /> */}
+          <Favorit />
         </div>
       </div>
     </div>

@@ -20,7 +20,6 @@ const PostCard = () => {
           <Button className='post-button' icon={<HeartOutlined />}>
             0
           </Button>
-          <Button className='post-button' icon={<SaveFilled />}></Button>
         </div>
       </div>
     </div>

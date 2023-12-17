@@ -5,8 +5,8 @@ import {
   HomeOutlined,
   SwitcherOutlined,
   TeamOutlined,
-  SaveOutlined,
   FormOutlined,
+  HeartOutlined,
 } from '@ant-design/icons';
 
 const Sidebar = () => {
@@ -49,8 +49,8 @@ const Sidebar = () => {
         </li>
         <li className='menu-item'>
           <Link to='/' className='nav-link'>
-            <SaveOutlined />
-            <span className='link-text'>Enregistre</span>
+            <HeartOutlined />
+            <span className='link-text'>Favoris</span>
           </Link>
         </li>
         <li className='menu-item'>
