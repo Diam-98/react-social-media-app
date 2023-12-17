@@ -11,7 +11,7 @@ const Header = () => {
         <span>Connector.</span>
       </div>
       <div className='right-side'>
-        <Link to='/' className='profile'>
+        <Link to='/profile' className='profile'>
           <img src={userProfile} alt='user profile' />
           <div className='user-infos'>
             <span>Diam Diallo</span>

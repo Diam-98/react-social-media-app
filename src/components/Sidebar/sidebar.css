@@ -11,6 +11,11 @@
   padding: 11px;
   border-radius: 7px;
   margin: 15px 0;
+  cursor: pointer;
+}
+
+.sidebar li.menu-item:hover {
+  background-color: #460b8a5e;
 }
 
 .sidebar li.menu-item.active {

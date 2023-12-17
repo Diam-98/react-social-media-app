@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router';
 import './App.css';
 import UserCard from './components/Card/UserCard';
 import Header from './components/Header/Header';
@@ -15,11 +16,7 @@ function App() {
       <div className='content'>
         <Sidebar />
         <div className='container'>
-          {/* <Home /> */}
-          {/* <Explore /> */}
-          {/* <Network /> */}
-          {/* <Favorit /> */}
-          <CreatePost />
+          <Outlet />
         </div>
       </div>
     </div>
