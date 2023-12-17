@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css';
-import FeedCard from '../components/Card/FeedCard';
-import UserCard from '../components/Card/UserCard';
+import FeedCard from '../../components/Card/FeedCard';
+import UserCard from '../../components/Card/UserCard';
 
 const Home = () => {
   return (

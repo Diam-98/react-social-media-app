@@ -1,0 +1,108 @@
+.explore {
+  width: 100%;
+  color: #fff;
+}
+
+.explore .search-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #1d1c1c;
+  border-radius: 9px;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.explore .search-box input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  outline: none;
+  color: white;
+}
+
+.explore .title-filtre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.ant-select-selector {
+  background-color: #1d1c1c !important;
+  color: #fff !important;
+}
+
+.ant-select-selection-item {
+  color: #fff !important;
+}
+
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
+}
+
+.post-list .post-card {
+  height: 250px;
+  margin: 15px;
+}
+
+.post-list .post-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.post-list .post-card .post-infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  border-radius: 0 0 15px 15px;
+  padding: 0 10px;
+  position: relative;
+  bottom: 56px;
+  background-color: #1d1c1c93;
+}
+
+.post-list .post-card .post-infos .user {
+  display: flex;
+  align-items: center;
+}
+
+.post-list .post-card .post-infos .user img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-list .post-card .post-infos .post-reaction .post-button {
+  background: #292828;
+  border: none;
+  color: #fff;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1122px) {
+  .post-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 841px) {
+  .post-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+  }
+}
