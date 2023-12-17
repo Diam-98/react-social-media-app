@@ -28,3 +28,14 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 650px) {
+  .App .content {
+    flex-direction: column-reverse;
+  }
+
+  .App .container {
+    width: 100%;
+    height: calc(100vh - 100px);
+  }
+}

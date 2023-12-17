@@ -116,3 +116,17 @@
 .home .network-body .network-user .connect-button:hover {
   background-color: #1d1c1c;
 }
+
+/* Media queries */
+@media screen and (max-width: 880px) {
+  .home {
+    flex-direction: column;
+  }
+  .home .feed {
+    width: 100%;
+  }
+
+  .home .network {
+    width: 100%;
+  }
+}

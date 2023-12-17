@@ -39,6 +39,10 @@
   flex-direction: column;
 }
 
+.navbar .right-side .profile .user-infos p {
+  font-size: 12px;
+}
+
 .navbar .right-side .logout {
   padding: 15px;
   height: 35px;
@@ -51,4 +55,18 @@
 .navbar .right-side .logout:hover {
   background-color: #eb2c2c;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar .logo span {
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .navbar .right-side .profile img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
 }
