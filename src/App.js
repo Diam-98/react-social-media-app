@@ -6,6 +6,7 @@ import Explore from './pages/Explore/Explore';
 import Favorit from './pages/Favorits/Favorit';
 import Home from './pages/Home/Home';
 import Network from './pages/Network/Network';
+import CreatePost from './pages/Post/CreatePost';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           {/* <Home /> */}
           {/* <Explore /> */}
           {/* <Network /> */}
-          <Favorit />
+          {/* <Favorit /> */}
+          <CreatePost />
         </div>
       </div>
     </div>

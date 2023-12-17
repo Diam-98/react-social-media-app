@@ -1,0 +1,33 @@
+.create-post {
+  color: #fff;
+  width: 100%;
+}
+
+.create-post .form {
+  margin-top: 20px;
+}
+
+.create-post .form .input-box {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.create-post .form .input-box textarea {
+  width: 100%;
+  height: 300px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #1d1c1c;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.create-post .form .input-box input[type='file'] {
+  width: 100%;
+  margin: 20px 0;
+  border: 2px solid #1d1c1c;
+  padding: 10px;
+  background-color: transparent;
+  color: #fff;
+}
