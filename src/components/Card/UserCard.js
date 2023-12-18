@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 const UserCard = () => {
   return (
     <div className='network-user'>
-      <Link to='/'>
+      <Link to='/profile'>
         <img src={user} alt='network user' />
       </Link>
-      <Link to='/' className='link'>
+      <Link to='/profile' className='link'>
         <span>Diam Diallo</span>
       </Link>
       <p>@Diamil</p>
