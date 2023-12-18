@@ -1,7 +1,7 @@
 import React from 'react';
 import postImage from '../../images/jeux-video.jpg';
 import userImage from '../../images/robot-avatar.png';
-import { HeartOutlined, SaveFilled } from '@ant-design/icons';
+import { HeartOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 import { Link } from 'react-router-dom';
 

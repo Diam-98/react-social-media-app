@@ -1,4 +1,3 @@
-import { SearchOutlined } from '@ant-design/icons';
 import React from 'react';
 import './explore.css';
 import { Select } from 'antd';
@@ -10,7 +9,6 @@ const { Option } = Select;
 
 const Explore = () => {
   const handleChange = (value) => {
-    // Gérer le changement d'option ici
     console.log(`Option sélectionnée: ${value}`);
   };
 

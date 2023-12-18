@@ -1,4 +1,3 @@
-import { EditOutlined } from '@ant-design/icons';
 import React from 'react';
 import profile from '../../images/robot-avatar.png';
 
