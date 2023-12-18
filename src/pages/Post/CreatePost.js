@@ -8,7 +8,7 @@ const CreatePost = () => {
       <div className='form'>
         <form>
           <div className='input-box'>
-            <label for='description'>Description</label>
+            <label htmlFor='description'>Description</label>
             <textarea placeholder='Contenu du post' id='description'></textarea>
           </div>
           <div className='input-box'>
