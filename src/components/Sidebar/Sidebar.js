@@ -19,25 +19,25 @@ const menuItem = [
   {
     id: 2,
     title: 'Explore',
-    path: '/explore',
+    path: '/home/explore',
     icon: <SwitcherOutlined />,
   },
   {
     id: 3,
     title: 'Reseau',
-    path: '/network',
+    path: '/home/network',
     icon: <TeamOutlined />,
   },
   {
     id: 4,
     title: 'Favorits',
-    path: '/favorits',
+    path: '/home/favorits',
     icon: <HeartOutlined />,
   },
   {
     id: 5,
     title: 'Publier',
-    path: '/post/create',
+    path: '/home/post/create',
     icon: <FormOutlined />,
   },
 ];

@@ -11,14 +11,14 @@ const Header = () => {
         <span>Connector.</span>
       </div>
       <div className='right-side'>
-        <Link to='/profile' className='profile'>
+        <Link to='/home/profile' className='profile'>
           <img src={userProfile} alt='user profile' />
           <div className='user-infos'>
             <span>Diam Diallo</span>
             <p>@diamil</p>
           </div>
         </Link>
-        <Link to='/' className='link logout'>
+        <Link to='/login' className='link logout'>
           <LogoutOutlined />
         </Link>
       </div>

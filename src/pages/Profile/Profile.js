@@ -22,7 +22,7 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        <Link to='/profile/edit' className='nav-link'>
+        <Link to='/home/profile/edit' className='nav-link'>
           <EditOutlined />
           <span>Modifier Profile</span>
         </Link>
