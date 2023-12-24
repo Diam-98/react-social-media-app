@@ -1,7 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Login = () => {
+  const navigate = useNavigate();
+  const home = () => {
+    navigate('/home');
+  };
+
   return (
     <div className='auth-box'>
       <form>
@@ -18,7 +23,7 @@ const Login = () => {
           />
         </div>
         <div className='input-box'>
-          <button>Se connecter</button>
+          <button onClick={home}>Se connecter</button>
           <span>
             Pas de compte ? <Link to='/register'>S'inscire</Link>
           </span>
