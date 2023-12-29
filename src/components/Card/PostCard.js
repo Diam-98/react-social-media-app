@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const PostCard = () => {
   return (
     <div className='post-card'>
-      <Link to='/post/detail/1'>
+      <Link to='/home/post/detail/1'>
         <img src={postImage} alt='post-slug' />
       </Link>
       <div className='post-infos'>
